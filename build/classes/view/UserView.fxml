@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterfaceTier.UserDataWindowController">
+    <children>
+        <Label layoutX="94.0" layoutY="74.0" text="DNI: ">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="102.0" layoutY="248.0" text="EDAD:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="192.0" text="PASSWD:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="132.0" text="NOMBRE:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tFDni" editable="false" layoutX="245.0" layoutY="70.0" />
+        <TextField fx:id="tFNombre" editable="false" layoutX="245.0" layoutY="128.0" />
+        <TextField fx:id="tFPasswd" editable="false" layoutX="245.0" layoutY="188.0" />
+        <TextField fx:id="tFEdad" editable="false" layoutX="245.0" layoutY="244.0" />
+        <Button layoutX="205.0" layoutY="337.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="32.0" prefWidth="225.0" text="MostrarDatosUser" />
+    </children>
+</Pane>
